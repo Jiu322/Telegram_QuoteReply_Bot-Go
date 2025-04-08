@@ -1,0 +1,16 @@
+{
+     "version": 2,
+     "builds": [
+       {
+         "src": "api/webhook.go",
+         "use": "@vercel/go"
+       }
+     ],
+     "routes": [
+       {
+         "src": "/api/webhook",
+         "dest": "api/webhook",
+         "methods": ["POST"]
+       }
+     ]
+}
