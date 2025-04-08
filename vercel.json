@@ -2,14 +2,14 @@
      "version": 2,
      "builds": [
        {
-         "src": "api/webhook.go",
+         "src": "github.com/XiaoMengXinX/telegram-bot-api/5v",
          "use": "@vercel/go"
        }
      ],
      "routes": [
        {
-         "src": "/api/webhook",
-         "dest": "api/webhook",
+         "src": "github.com/XiaoMengXinX/telegram-bot-api/5v",
+         "dest": "github.com/XiaoMengXinX/telegram-bot-api/5v",
          "methods": ["POST"]
        }
      ]
